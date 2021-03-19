@@ -1,9 +1,7 @@
 /******************************************************************************
-
                               Online C++ Compiler.
                Code, Compile, Run and Debug C++ program online.
 Write your code in this editor and press "Run" button to compile and execute it.
-
 *******************************************************************************/
 
 #include <iostream>
@@ -85,6 +83,6 @@ int main()
     }
     
     paint(1, 1);
-    cout << n_walls;
+    cout << n_walls * 9;
     return 0;
 }
